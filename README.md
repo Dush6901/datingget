@@ -1,75 +1,80 @@
-# Nuxt Minimal Starter
+# DatingGet 💜
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+🌐 **Демо:** [Открыть DatingGet](ВСТАВЬ_СЮДА_ССЫЛКУ_НА_VERCEL)
 
-## Setup
+**DatingGet** — веб-приложение для знакомств, с mock-данными
 
-Make sure to install dependencies:
+## ✨ Возможности
+
+- **Поиск анкет** — фильтрация пользователей по городу, полу и цели знакомства.
+- **Рулетка знакомств** — случайный подбор анкет с возможностью поставить лайк или пропустить.
+- **Лайки и мэтчи** — просмотр понравившихся пользователей и взаимных симпатий.
+- **Профили пользователей** — подробная информация об анкетах, интересах и целях знакомства.
+- **Адаптивный дизайн** — интерфейс для мобильных устройств, планшетов и компьютеров.
+- **Сохранение лайков** — использование `localStorage` для сохранения выбранных пользователей между посещениями сайта.
+
+## 🛠️ Технологии
+
+- **Nuxt 4** — фреймворк для Vue.js.
+- **Vue 3** — создание пользовательского интерфейса.
+- **TypeScript** — типизация и повышение надёжности кода.
+- **Tailwind CSS 4** — стилизация и адаптивная вёрстка.
+- **Git и GitHub** — контроль версий.
+- **Vercel** — развёртывание приложения.
+
+## 🚀 Запуск проекта
+
+### Требования
+
+- Node.js — версия, совместимая с используемой версией Nuxt.
+- npm.
+
+### Установка
+
+Клонируйте репозиторий:
 
 ```bash
-# npm
+git clone https://github.com/Dush6901/datingget.git
+```
+
+Перейдите в папку проекта:
+
+```bash
+cd datingget
+```
+
+Установите зависимости:
+
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Запустите сервер разработки:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Откройте адрес `http://localhost:3000` в браузере.
 
-Build the application for production:
+### Сборка для production
+
+Проверьте проект production-сборкой:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+Для локального просмотра production-версии:
 
 ```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 🎯 Цель проекта
+
+Проект создан для практики разработки современных веб-приложений: компонентной архитектуры Vue, работы с TypeScript, адаптивной вёрстки, маршрутизации и управления состоянием.
+
+## 📄 Лицензия
+
+Проект распространяется под лицензией [MIT](LICENSE).
