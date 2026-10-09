@@ -1,6 +1,6 @@
 # DatingGet 💜
 
-🌐 **Демо:** [Открыть DatingGet](ВСТАВЬ_СЮДА_ССЫЛКУ_НА_VERCEL)
+🌐 **Демо:** [Открыть DatingGet](https://datingget.vercel.app/)
 
 **DatingGet** — веб-приложение для знакомств, с mock-данными
 
